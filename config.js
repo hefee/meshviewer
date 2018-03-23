@@ -46,6 +46,7 @@ module.exports = function () {
     'dataPath': [
       'https://regensburg.freifunk.net/data/'
     ],
+    'reverseGeocodingApi': 'https://regensburg.freifunk.net/geocoding/reverse',
     'siteName': 'Freifunk Regensburg',
     'mapLayers': [
       {
@@ -71,43 +72,6 @@ module.exports = function () {
           'start': 19,
           'end': 7
         }
-      },
-      {
-        'name': 'OpenStreetMap.HOT',
-        'url': 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
-        'config': {
-          'maxZoom': 19,
-          'attribution': '&copy; Openstreetmap France | &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }
-      },
-      {
-        'name': 'HERE',
-        // Please use your own API key - Free plan is on right side after the pay plans
-        'url': 'https://{s}.base.maps.api.here.com/maptile/2.1/maptile/newest/normal.day/{z}/{x}/{y}/256/png8?app_id=YOUR_KEY&app_code=YOUR_CODE&lg=deu',
-        'config': {
-          'attribution': 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
-          'subdomains': '1234',
-          'maxZoom': 20
-        }
-      },
-      {
-        'name': 'Esri.WorldImagery',
-        'url': '//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-        'config': {
-          'maxZoom': 20,
-          'attribution': 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-        }
-      },
-      {
-        'name': 'HERE.hybridDay',
-        // Please use your own API key - Free plan is on right side after the pay plans
-        'url': 'https://{s}.aerial.maps.api.here.com/maptile/2.1/maptile/newest/{variant}/{z}/{x}/{y}/256/png8?app_id=YOUR_KEY&app_code=YOUR_CODE&lg=deu',
-        'config': {
-          'attribution': 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
-          'subdomains': '1234',
-          'variant': 'hybrid.day',
-          'maxZoom': 20
-        }
       }
     ],
     // Set a visible frame
@@ -125,12 +89,12 @@ module.exports = function () {
     ],
     'domainNames': [
       {
-        'domain': 'ffrgb-bat15',
-        'name': 'Regensburg'
+        'domain': 'ffrgb_cty',
+        'name': 'Regensburg Stadt'
       },
       {
-        'domain': 'ffrgb',
-        'name': 'Regensburg'
+        'domain': 'ffrgb_uml',
+        'name': 'Regensburg Umland'
       }
     ],
     'linkList': [
