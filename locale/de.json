@@ -33,7 +33,8 @@
     "link": "Verbindung |||| Verbindungen",
     "node": "Knoten",
     "new": "Neue Knoten",
-    "missing": "Verschwundene Knoten"
+    "missing": "Verschwundene Knoten",
+    "databaseid": "Datenbank ID"
   },
   "location": {
     "location": "Standort",

@@ -33,7 +33,8 @@
     "link": "Link |||| Links",
     "node": "Node |||| Nodes",
     "new": "New nodes",
-    "missing": "Disappeared nodes"
+    "missing": "Disappeared nodes",
+    "databaseid": "Database ID"
   },
   "location": {
     "location": "Location",

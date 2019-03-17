@@ -15,6 +15,11 @@ module.exports = function () {
         'value': 'Status'
       },
       {
+        'name': 'node.databaseid',
+        'value': 'DatabaseID'
+      },
+
+      {
         'name': 'node.gateway',
         'value': 'Gateway'
       },
