@@ -58,6 +58,10 @@ module.exports = function () {
         'value': 'mac'
       },
       {
+        'name': 'node.macs',
+        'value': 'MACs'
+      },
+      {
         'name': 'node.firmware',
         'value': 'Firmware'
       },

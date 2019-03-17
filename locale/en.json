@@ -18,6 +18,7 @@
     "visible": "Visible on the map",
     "update": "Auto update",
     "domain": "Domain",
+    "macs": "MACs",
     "gateway": "Gateway",
     "coordinates": "Coordinates",
     "contact": "Contact",
